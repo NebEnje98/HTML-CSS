@@ -1,0 +1,55 @@
+.first-flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-left-side {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.first-right-side {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.second-flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-left-side {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.second-middle-side {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.second-right-side {
+  background-color: lightblue;
+  width: 75px;
+}
+
+.lightpink {
+  background-color: lightpink;
+}
+
+.third-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fourth-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  align-items: center;
+}
