@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+      .first-grid {
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 50px;
+      }
+
+      .lightblue {
+        background-color: lightblue;
+      }
+
+      .lightpink {
+        background-color: lightpink;
+      }
+
+      .second-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 50px;
+      }
+
+      .third-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-bottom: 50px;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .facebook-card {
+        width: 200px;
+        box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+      }
+
+      .facebook-profile-picture {
+        margin-bottom: 10px;
+      }
+
+      .profile-picture {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .facebook-name {
+        margin-left: 5px;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      .mutual-friend-row {
+        margin-left: 5px;
+        margin-bottom: 8px;
+      }
+
+      .mutual-friend-profile-picture {
+        display: inline-block;
+      }
+
+      .mutual-friend-picture {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        object-fit: cover;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      .mutual-friends {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        color: rgb(122, 122, 122);
+      }
+
+      .add-friend-row {
+        margin-left: 5px;
+        padding-bottom: 8px;
+      }
+
+      .add-friend-button {
+        background-color: rgb(100, 144, 209);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .facebook-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="first-grid">
+      <div class="lightblue">200px</div>
+      <div class="lightpink">75px</div>
+    </div>
+
+    <div class="second-grid">
+      <div class="lightblue">col1</div>
+      <div class="lightpink">col2</div>
+      <div class="lightblue">col3</div>
+    </div>
+
+    <div class="third-grid">
+      <div class="lightpink">col1</div>
+      <div class="lightpink">col2</div>
+      <div class="lightpink">col3</div>
+      <div class="lightpink">col4</div>
+      <div class="lightpink">col1</div>
+      <div class="lightpink">col2</div>
+      <div class="lightpink">col3</div>
+      <div class="lightpink">col4</div>
+    </div>
+
+
+
+    <div class="facebook-grid">
+      <div class="facebook-card">
+        <div class="facebook-profile-picture">
+          <img class="profile-picture" src="img/image.jpg">
+        </div>
+        <p class="facebook-name">
+          Oliver
+        </p>
+        <div class="mutual-friend-row">
+          <div class="mutual-friend-profile-picture">
+            <img class="mutual-friend-picture" src="channel-pictures/channel-2.jpeg">
+          </div>
+          <p class="mutual-friends">
+            2 mutual friends
+          </p>
+        </div>
+        <div class="add-friend-row">
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+  
+      <div class="facebook-card">
+        <div class="facebook-profile-picture">
+          <img class="profile-picture" src="img/image.jpg">
+        </div>
+        <p class="facebook-name">
+          Mimi
+        </p>
+        <div class="mutual-friend-row">
+          <div class="mutual-friend-profile-picture">
+            <img class="mutual-friend-picture" src="channel-pictures/channel-2.jpeg">
+          </div>
+          <p class="mutual-friends">
+            3 mutual friends
+          </p>
+        </div>
+        <div class="add-friend-row">
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+  
+      <div class="facebook-card">
+        <div class="facebook-profile-picture">
+          <img class="profile-picture" src="img/image.jpg">
+        </div>
+        <p class="facebook-name">
+          Rex
+        </p>
+        <div class="mutual-friend-row">
+          <div class="mutual-friend-profile-picture">
+            <img class="mutual-friend-picture" src="channel-pictures/channel-2.jpeg">
+          </div>
+          <p class="mutual-friends">
+            4 mutual friends
+          </p>
+        </div>
+        <div class="add-friend-row">
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
