@@ -1,51 +1,21 @@
-.first-flexbox {
-  display: flex;
-  flex-direction: row;
-  height: 50px;
-  margin-bottom: 50px;
+body {
+  margin-bottom: 3000px;
 }
 
-.left-section {
-  background-color: lightpink;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.right-section {
-  background-color: lightblue;
-  width: 200px;
-}
-
-.item {
+.bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   background-color: black;
   color: white;
 }
 
-.second-flexbox {
-  display: flex;
-  flex-direction: row;
-  height: 50px; 
-}
-
-.left-section2 {
-  background-color: lightpink;
-  width: 100px;
-}
-
-.right-section2 {
-  background-color: lightblue;
-  width: 200px;
-}
-
-.nested-flexbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.row2-item {
-  background-color: black;
+.right-sidebar {
+  position: fixed;
+  background-color: green;
   color: white;
+  top: 0px;
+  bottom: 50px;
+  right: 0px;
+  width: 100px;
 }
