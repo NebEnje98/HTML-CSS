@@ -1,0 +1,42 @@
+.sale-card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.sale-item {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.sale-percent {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0px;
+  top: 8px;
+  padding: 8px 10px;
+}
+
+.add-to-cart {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(204, 204, 204, 0.8);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-button {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 8px 12px;
+}
